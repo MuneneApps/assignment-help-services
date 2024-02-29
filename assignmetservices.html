@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essay Writing Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            margin-right: 10px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .whatsapp-icon {
+            width: 40px;
+            height: 40px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Essay Writing Service</h1>
+        <p>We provide high-quality essay writing services tailored to your needs.</p>
+        <button class="button" onclick="showOptions()">Send Requirements</button>
+        <div id="options" style="display: none;">
+            <p>Choose how you'd like to send your requirements:</p>
+            <a href="mailto:munene337@gmail.com" class="button">Send via Email</a>
+            <a href="https://wa.me/254713077490" target="_blank"><img src="whatsapp_icon.png" alt="WhatsApp" class="whatsapp-icon"></a>
+        </div>
+    </div>
+
+    <script>
+        function showOptions() {
+            var optionsDiv = document.getElementById('options');
+            optionsDiv.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
